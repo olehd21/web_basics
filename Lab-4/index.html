@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<h1>Моя перша HTML-форма</h1>
+<form action="https://httpbin.org/get" method="GET">
+    <label for="name">Name:</label>
+    <input type="text" id="name" placeholder="Ім'я" required>
+    <br> <br>
+    <label for="date">Дата народження:</label>
+    <input type="date" id="date" name="date" required>
+
+    <br> <br>
+    <label for="email">Імейл:</label>
+    <input type="text" id="email" name="email" placeholder="Електронна пошта">
+
+    <br> <br>
+    <label for="">Повідомлення:</label>
+    <textarea id="" name="comment" cols="20" rows="2" placeholder="Напишіть щось про себе"></textarea>
+
+    <br> <br>
+    <label>Ваші улюблені напої?</label>
+    <br>
+    <input type="checkbox" id="drink1" name="drinks" value="Кава">
+    <label for="drink1">Кава</label>
+    <br>
+    <input type="checkbox" id="drink2" name="drinks" value="Чай">
+    <label for="drink2">Чай</label>
+    <br>
+    <input type="checkbox" id="drink3" name="drinks" value="Сік">
+    <label for="drink3">Сік</label>
+    <br>
+    <input type="checkbox" id="drink4" name="drinks" value="Вода">
+    <label for="drink4">Вода</label><br>
+    <br> <br>
+
+    <label>Моя національність:</label><br>
+    <input type="radio" id="nationality1" name="nationality" value="Українець">
+    <label for="nationality1">Українець</label>
+    <br>
+    <input type="radio" id="nationality2" name="nationality" value="Русин">
+    <label for="nationality2">Поляк</label>
+    <br>
+    <input type="radio" id="nationality3" name="nationality" value="Інше">
+    <label for="nationality3">Інше</label>
+    <br> <br>
+
+    <button type="submit">Надіслати</button>
+    <button type="reset">Очистити</button>
+</form>
+<br>
+
+<picture>
+    <source media="(max-width: 468px)" srcset="https://picsum.photos/300/500">
+    <source media="(min-width: 469px)" srcset="https://picsum.photos/1000/400">
+    <img src="https://picsum.photos/1000/400" alt="Демонстраційне зображення">
+</picture>
+</body>
+</html>

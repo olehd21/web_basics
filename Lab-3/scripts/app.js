@@ -1,2 +1,2 @@
-alert("Привіт")
-console.log("...");
+alert("Привіт!")
+console.log("Вітаємо на сайті!");
